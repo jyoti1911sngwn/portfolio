@@ -452,6 +452,42 @@ nav .fas{
     }
 }
 
+/* --- INTRO SECTION RESPONSIVE FIX (safe, non-breaking) --- */
+.intro-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.intro-col-1 {
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-col-1 img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.intro-col-2 {
+    flex: 1 1 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .intro-row {
+        flex-direction: column;
+        text-align: center;
+    }
+    .intro-col-1 img {
+        max-width: 80%;
+    }
+}
 
 
 
