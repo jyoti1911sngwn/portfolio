@@ -26,53 +26,76 @@
                 </ul>
                 <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
-
-            <div class="header-text">
-                <p>Frontend End Developer</p>
-                <h1>Hi, I'm <span>Jyoti</span><br> from Haryana, India</h1>
+<div class="row">
+            <div class="intro-col-1"> 
+                <img src="iamge.jpeg" alt="">
             </div>
+            <div class="intro-col-2"> 
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Jyoti</span> from India</h1>
+                <p style="font-size: 24px; margin-top: 40px">3+ years of experience in full stack development, specializing in React.js and Node.js. Proficient in data structures, algorithms, and
+databases. Handled features across multiple platforms and ensured stable releases. My expertise lies in creating dynamic, responsive
+and user-friendly web applications Strong knowledge of React.js, Next.js, Node.js, Mongo DB, Postgres and JavaScript.</p>
+            </div>
+            </div>
+            </div></div>
             </div>
         </div>
 <!---------------about----------->
 <div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="mypic.jpeg" alt="">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p> Hey there! My name is Jyoti Sangwan. I am from Hisar, Haryana, India. I am a post 
-                    graduate holding an M.Tech degree from Lovely Professional University Phagwara, Jalandhar.
-                    I have being very intrested in programming since past two years. I have learnt HTML, CSS ,JS 
-                    , ReactJS framework, C++, Python, etc.,. Here are some of my projects. If you need any help 
-                    regarding web developmment, my contact details are shared below. I would love work with you.
-                    Warm Regards!!</p>
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul><li><span>Front-End Development</span><br>Designing the outlook of web pages</li>
-                        <li><span>Database Management</span><br>Handling all the information related to a particular association</li>
-                        <li><span>Back-End Development</span><br>Processing the information related to a web application</li></ul>
-                </div>
-                <div class="tab-contents" id="experience">
-                    <ul><li><span>Designed a web page clone of Google</span><br>August 2022</li>
-                        <li><span>Designed a website for DNA Fingerprinting</span><br>august 2022 - current</li>
-                        <li><span>Desined portfolio</span><br>October 2022</li></ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul><li><span>B.Tech-M.Tech integrated </span><br>Lovely Professional University, Phagwara</li>
-                        <li><span>12th</span><br>Army Public School, Hisar</li>
-                        
-                </div>
-            </div>
+    <div class="container about-container">
+        <h1 class="sub-title">About Me</h1>
+        <p>
+            Hi! My name is <strong>Jyoti Sangwan</strong>, from Hisar, Haryana, India. I am a postgraduate with an M.Tech degree from 
+            Lovely Professional University, Phagwara, Jalandhar. I have been passionate about programming for the past two years and 
+            have learned HTML, CSS, JavaScript, React.js, C++, Python, and more. Here are some of my projects, and if you need help 
+            with web development, feel free to reach out. I would love to collaborate. Warm regards!
+        </p>
 
+        <!-- Tab Titles -->
+        <div class="tab-titles">
+            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+
+        <!-- Tab Contents -->
+        <div class="tab-contents active-tab" id="experience">
+            <ul>
+                <li>
+                    <span>Serviots Pvt. Ltd</span><br>
+                    Built a secure and scalable payment platform using the PERN stack with JWT-based authentication, role-based access control, 
+                    and automated backend operations with Python bots. Developed the frontend with React.js (17+), backend APIs with Node.js/Express.js, 
+                    and managed data in PostgreSQL. Enabled real-time transactions via WebSockets, integrated multiple payment gateways (Cashfree, Razorpay, PayU, PayAssist) 
+                    with secure Webhooks, and deployed backend services on AWS EC2. Managed global state efficiently with Redux.
+                </li>
+                <li>
+                    <span>Quara Digital Pvt. Ltd</span><br>
+                    Developed <strong>Wasalt.com</strong>, a real estate website in Riyadh. Built dynamic and responsive user interfaces using React.js, 
+                    implemented server-side rendering and static generation with Next.js for better performance and SEO, and managed complex state logic 
+                    using useReducer and Context API. Utilized dynamic imports for conditional component rendering and configured dynamic routing for static site generation.
+                </li>
+            </ul>
+        </div>
+
+        <div class="tab-contents" id="skills">
+            <ul>
+                <li><span>Front-End Development:</span> Designing the look and feel of web pages</li>
+                <li><span>Database Management:</span> Handling and organizing data efficiently</li>
+                <li><span>Back-End Development:</span> Processing and managing application logic and server operations</li>
+            </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>B.Tech-M.Tech Integrated:</span> Lovely Professional University, Phagwara</li>
+                <li><span>12th:</span> Army Public School, Hisar</li>
+            </ul>
         </div>
     </div>
 </div>
+
 <!--------services--------->
 <div id="services">
     <div class="container">
@@ -81,22 +104,29 @@
             <div>
                 <i class="fa-sharp fa-solid fa-code"></i>
                 <h2>Front-End</h2>
-                <p>Technologies : HTML, CSS and Javascript</p>
-                <a href="#">Learn more</a>
+                <p>Technologies : React, Next js, Typescript, Tailwind, HTML, CSS and Javascript</p>
+                <!-- <a href="#">Learn more</a> -->
             </div>
             <div>
                 <i class="fa-sharp fa-solid fa-code-compare"></i>
                 <h2>Back-End</h2>
-                <p>Technologies : Django Framework, Python, C++</p>
-                <a href="#">Learn more</a>
+                <p>Technologies : Node js, Express js, Django Framework, Python, C++</p>
+                <!-- <a href="#">Learn more</a> -->
             </div>
                 
             <div>
 
             <i class="fa-solid fa-database"></i>
                 <h2>Database Management</h2>
-                <p>Technologies : MySQL</p>
-                <a href="#">Learn more</a>
+                <p>Technologies : MySQL , PostGres , MongoDB</p>
+                <!-- <a href="#">Learn more</a> -->
+            </div>
+            <div>
+
+            <i class="fa-solid fa-database"></i>
+                <h2>Cloud Base</h2>
+                <p>Technologies : AWS - EC2, S3, Cloudwatch, RDS, Loadbalancers</p>
+                <!-- <a href="#">Learn more</a> -->
             </div>
         </div>
     </div>
@@ -104,36 +134,86 @@
 <!------------portfolio-------------->
 <div id="portfolio">
     <div class="container">
-        <h1 class="sub-title">My Portfolio</h1>
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+        <div class="work">
+        <img src="trustpays.png">
+        <div class="layer">
+        <h3>Trustpays</h3>
+        <p>Payment portal to integrate in your website which will aid in cash flow management </p>
+        <a href="https://trustpays24.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div></div>
+        <div class="work">
+        <img src="wasalt.png">
+        <div class="layer">
+        <h3>Wasalt</h3>
+        <p>Website where you can add your property listing for auction and also buy real estate.</p>
+        <a href="https://wasalt.sa/en"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+        
+        </div>
+        <div class="work">
+        <img src="socials.png">
+        <div class="layer">
+        <h3>Social Media App</h3>
+        <p>Post your photos and share what's on your mind. Also like or dislike feed</p>
+        <a href="https://social-media-opal-delta.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+        </div>
+    </div>
+        
         <div class="work-list">
             <div class="work">
-                <img src="dnaport.png">
+                <img src="inote.png">
                 <div class="layer">
-                    <h3>DNA Fingerprinting</h3>
-                    <p>Website to match DNA can be used in Forensic, Education Purpose, Biotech Research work, etc</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <h3>iNotebook</h3>
+                    <p>Its an app where you can create your account, create your notes and save them for future references. It's a full stack app build with MERN. Find the project on my GitHub : https://github.com/jyoti1911sngwn/inotebook 
+</p>
+                    <a href="https://inotebook-coral-six.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="gglport.png">
+                <img src="newsapp.png">
                 <div class="layer">
-                    <h3>Google Web-Page Clone</h3>
-                    <p>Built clone of Google web page for my CS-50 EDX Harvard course on web development</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <h3>NEWS App</h3>
+                    <p>In this app you can view latest NEWS updated continuously. I have fetched the NEWS from NewsAPI , which is an open source API available for free on internet.</p>
+                    <a href="https://newsallaround.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="portport.png">
+                <img src="toh.png">
                 <div class="layer">
-                    <h3>Portfolio</h3>
-                    <p>built my personal portfolio with HTML, CSS and JS</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <h3>Tower Of Hanoi</h3>
+                    <p>Created and app to understand the problem of Tower Of Hanoi , it is more like a game </p>
+                    <a href="https://towerofhanoi-2d309.web.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div> </div>
+            </div>
+  <div class="work-list">        
+<div class="work">
+                <img src="auth.png">
+                <div class="layer">
+                    <h3>Authentication App</h3>
+                    <p>Basic User sign up and login via authentication with JWT</p>
+                    <a href="https://userauthfront.vercel.app/signup"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
-        </div>
-
+        <div class="work">
+                <img src="newsapp.png">
+                <div class="layer">
+                    <h3>Authentication App</h3>
+                    <p>Basic User sign up and login via authentication with JWT</p>
+                    <a href="https://userauthfront.vercel.app/signup"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        <div class="work">
+                <img src="newsapp.png">
+                <div class="layer">
+                    <h3>Authentication App</h3>
+                    <p>Basic User sign up and login via authentication with JWT</p>
+                    <a href="https://userauthfront.vercel.app/signup"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div></div>  
             <a href="#" class="btn">See More</a>
-    </div>
 </div>
 <!---------------Contact------------------------->
 <div id="contact">
@@ -142,11 +222,11 @@
             <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
                             <p><i class="fa-solid fa-paper-plane"></i>sangwanjyoti717@gmail.com</p>
-                            <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                            <p><i class="fa-solid fa-square-phone"></i>+971525822499 , +919518808504</p>
                             <div class="social-icons">
                                 <a href="https://www.facebook.com/jyoti.sngwn/"><i class="fa-brands fa-facebook"></i></a>
-                                <a href="https://www.instagram.com/jyotisngwn_/"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="www.linkedin.com/in/jyoti-sangwan"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/jyoti1911sngwn"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/jyoti-sangwan/"><i class="fa-brands fa-linkedin"></i></a>
                                 <a href="https://www.youtube.com/channel/UCL-c2MG2xlfPJa3YAGR3raQ"><i class="fa-brands fa-youtube"></i></a>
                             </div>
                     <a href="CVMY.pdf" download class="btn btn2">Download CV</a>

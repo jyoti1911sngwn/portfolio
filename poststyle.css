@@ -408,6 +408,53 @@ nav .fas{
     display: block;
 }
 
+/* Header Row Flex */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* allow stacking on small screens */
+    gap: 20px;
+    padding: 40px 0;
+}
+
+/* Image Column */
+.intro-col-1 {
+    flex: 1 1 45%; /* takes roughly half of the screen */
+    display: flex;
+    justify-content: center;
+}
+
+.intro-col-1 img {
+    width: 100%;
+    max-width: 400px; /* adjust for desired max size */
+    height: auto;
+    border-radius: 10px; /* optional rounded edges */
+    object-fit: cover;
+}
+
+/* Text Column */
+.intro-col-2 {
+    flex: 1 1 50%;
+}
+
+/* Responsive for mobile */
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+    .intro-col-1, .intro-col-2 {
+        flex: 1 1 100%;
+    }
+    .intro-col-1 img {
+        max-width: 80%; /* smaller for mobile */
+    }
+}
+
+
+
+
 
 
 
