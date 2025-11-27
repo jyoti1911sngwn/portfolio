@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Portfoliio</title>
-        <link rel="stylesheet" href="poststyle.css">
-        <script src="https://kit.fontawesome.com/057b0faf50.js" crossorigin="anonymous">
-        document.getElementById('test').addEventListener('click', function() {
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Portfoliio</title>
+    <link rel="stylesheet" href="poststyle.css">
+    <script src="https://kit.fontawesome.com/057b0faf50.js" crossorigin="anonymous">
+        document.getElementById('test').addEventListener('click', function () {
             console.log("!!!!!")
         })
-        </script>
-    </head>
-    <body>
-        <div id="header">
-            <div class="container">
-                <nav><img src="logo.jpeg" class="logo" id= "test">
+    </script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav><img src="logo.jpeg" class="logo" id="test">
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -26,272 +28,310 @@
                 </ul>
                 <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
-<div class="row">
-            <div class="intro-col-1"> 
-                <img src="iamge.jpeg" alt="">
-            </div>
-            <div class="intro-col-2"> 
-            <div class="header-text">
-                <p>Full Stack Developer</p>
-                <h1>Hi, I'm <span>Jyoti</span> from India</h1>
-                <p style="font-size: 24px; margin-top: 40px">3+ years of experience in full stack development, specializing in React.js and Node.js. Proficient in data structures, algorithms, and
-databases. Handled features across multiple platforms and ensured stable releases. My expertise lies in creating dynamic, responsive
-and user-friendly web applications Strong knowledge of React.js, Next.js, Node.js, Mongo DB, Postgres and JavaScript.</p>
-            </div>
-            </div>
-            </div></div>
-            </div>
-        </div>
-<!---------------about----------->
-<div id="about">
-    <div class="container about-container">
-        <h1 class="sub-title">About Me</h1>
-        <p>
-            Hi! My name is <strong>Jyoti Sangwan</strong>, from Hisar, Haryana, India. I am a postgraduate with an M.Tech degree from 
-            Lovely Professional University, Phagwara, Jalandhar. I have been passionate about programming for the past two years and 
-            have learned HTML, CSS, JavaScript, React.js, C++, Python, and more. Here are some of my projects, and if you need help 
-            with web development, feel free to reach out. I would love to collaborate. Warm regards!
-        </p>
-
-        <!-- Tab Titles -->
-        <div class="tab-titles">
-            <p class="tab-links" onclick="opentab('skills')">Skills</p>
-            <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
-            <p class="tab-links" onclick="opentab('education')">Education</p>
-        </div>
-
-        <!-- Tab Contents -->
-        <div class="tab-contents active-tab" id="experience">
-            <ul>
-                <li>
-                    <span>Serviots Pvt. Ltd</span><br>
-                    Built a secure and scalable payment platform using the PERN stack with JWT-based authentication, role-based access control, 
-                    and automated backend operations with Python bots. Developed the frontend with React.js (17+), backend APIs with Node.js/Express.js, 
-                    and managed data in PostgreSQL. Enabled real-time transactions via WebSockets, integrated multiple payment gateways (Cashfree, Razorpay, PayU, PayAssist) 
-                    with secure Webhooks, and deployed backend services on AWS EC2. Managed global state efficiently with Redux.
-                </li>
-                <li>
-                    <span>Quara Digital Pvt. Ltd</span><br>
-                    Developed <strong>Wasalt.com</strong>, a real estate website in Riyadh. Built dynamic and responsive user interfaces using React.js, 
-                    implemented server-side rendering and static generation with Next.js for better performance and SEO, and managed complex state logic 
-                    using useReducer and Context API. Utilized dynamic imports for conditional component rendering and configured dynamic routing for static site generation.
-                </li>
-            </ul>
-        </div>
-
-        <div class="tab-contents" id="skills">
-            <ul>
-                <li><span>Front-End Development:</span> Designing the look and feel of web pages</li>
-                <li><span>Database Management:</span> Handling and organizing data efficiently</li>
-                <li><span>Back-End Development:</span> Processing and managing application logic and server operations</li>
-            </ul>
-        </div>
-
-        <div class="tab-contents" id="education">
-            <ul>
-                <li><span>B.Tech-M.Tech Integrated:</span> Lovely Professional University, Phagwara</li>
-                <li><span>12th:</span> Army Public School, Hisar</li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<!--------services--------->
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">Services:-</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-sharp fa-solid fa-code"></i>
-                <h2>Front-End</h2>
-                <p>Technologies : React, Next js, Typescript, Tailwind, HTML, CSS and Javascript</p>
-                <!-- <a href="#">Learn more</a> -->
-            </div>
-            <div>
-                <i class="fa-sharp fa-solid fa-code-compare"></i>
-                <h2>Back-End</h2>
-                <p>Technologies : Node js, Express js, Django Framework, Python, C++</p>
-                <!-- <a href="#">Learn more</a> -->
-            </div>
-                
-            <div>
-
-            <i class="fa-solid fa-database"></i>
-                <h2>Database Management</h2>
-                <p>Technologies : MySQL , PostGres , MongoDB</p>
-                <!-- <a href="#">Learn more</a> -->
-            </div>
-            <div>
-
-            <i class="fa-solid fa-database"></i>
-                <h2>Cloud Base</h2>
-                <p>Technologies : AWS - EC2, S3, Cloudwatch, RDS, Loadbalancers</p>
-                <!-- <a href="#">Learn more</a> -->
+            <div class="row">
+                <div class="intro-col-1">
+                    <img src="iamge.jpeg" alt="">
+                </div>
+                <div class="intro-col-2">
+                    <div class="header-text">
+                        <p>Full Stack Developer</p>
+                        <h1>Hi, I'm <span>Jyoti</span> from India</h1>
+                        <p style="font-size: 24px; margin-top: 40px">3+ years of experience in full stack development,
+                            specializing in React.js and Node.js. Proficient in data structures, algorithms, and
+                            databases. Handled features across multiple platforms and ensured stable releases. My
+                            expertise lies in creating dynamic, responsive
+                            and user-friendly web applications Strong knowledge of React.js, Next.js, Node.js, Mongo DB,
+                            Postgres and JavaScript.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!------------portfolio-------------->
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">Projects</h1>
-        <div class="work-list">
-        <div class="work">
-        <img src="trustpays.png">
-        <div class="layer">
-        <h3>Trustpays</h3>
-        <p>Payment portal to integrate in your website which will aid in cash flow management </p>
-        <a href="https://trustpays24.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
-        </div></div>
-        <div class="work">
-        <img src="wasalt.png">
-        <div class="layer">
-        <h3>Wasalt</h3>
-        <p>Website where you can add your property listing for auction and also buy real estate.</p>
-        <a href="https://wasalt.sa/en"><i class="fa-solid fa-up-right-from-square"></i></a>
-        </div>
-        
-        </div>
-        <div class="work">
-        <img src="socials.png">
-        <div class="layer">
-        <h3>Social Media App</h3>
-        <p>Post your photos and share what's on your mind. Also like or dislike feed</p>
-        <a href="https://social-media-opal-delta.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
-        </div>
+    </div>
+    <!---------------about----------->
+    <div id="about">
+        <div class="container about-container">
+            <h1 class="sub-title">About Me</h1><br>
+            <p>
+                I am a full-stack developer with 3 years of hands-on experience working with React.js, Node.js,
+                Express.js, and MongoDB. I have contributed to multiple large-scale B2B and B2C platforms, delivering
+                end-to-end features that are fast, scalable, and user-focused. My strengths lie in building intuitive UI
+                components, integrating APIs, managing application state, and developing secure backend services.
+            </p>
+            <br>
+            <p>Over the years, I have worked closely with product, design, and business teams to translate requirements
+                into reliable technical solutions. I have experience with authentication systems, internationalization
+                (i18n), performance optimization, dynamic imports, and responsive web design across mobile and desktop.
+                I enjoy taking ownership—from planning and architecture to development, testing, and deployment.</p>
+            <br>
+            <p>I am passionate about clean code, modern development practices, and building meaningful digital
+                experiences. With a strong problem-solving mindset and a consistent learning approach, I aim to
+                contribute to impactful projects while growing as an engineer.</p>
+            <!-- Tab Titles -->
+            <div class="tab-titles">
+                <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <!-- Tab Contents -->
+            <div class="tab-contents active-tab" id="experience">
+                <ul>
+                    <li>
+                        <span>Serviots Pvt. Ltd</span><br>
+                        Built a secure and scalable payment platform using the PERN stack with JWT-based authentication,
+                        role-based access control,
+                        and automated backend operations with Python bots. Developed the frontend with React.js (17+),
+                        backend APIs with Node.js/Express.js,
+                        and managed data in PostgreSQL. Enabled real-time transactions via WebSockets, integrated
+                        multiple payment gateways (Cashfree, Razorpay, PayU, PayAssist)
+                        with secure Webhooks, and deployed backend services on AWS EC2. Managed global state efficiently
+                        with Redux.
+                    </li>
+                    <li>
+                        <span>Quara Digital Pvt. Ltd</span><br>
+                        Developed <strong>Wasalt.com</strong>, a real estate website in Riyadh. Built dynamic and
+                        responsive user interfaces using React.js,
+                        implemented server-side rendering and static generation with Next.js for better performance and
+                        SEO, and managed complex state logic
+                        using useReducer and Context API. Utilized dynamic imports for conditional component rendering
+                        and configured dynamic routing for static site generation.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="skills">
+                <ul>
+                    <li><span>Front-End Development:</span> Designing the look and feel of web pages</li>
+                    <li><span>Database Management:</span> Handling and organizing data efficiently</li>
+                    <li><span>Back-End Development:</span> Processing and managing application logic and server
+                        operations</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>B.Tech-M.Tech Integrated:</span> Lovely Professional University, Phagwara</li>
+                    <li><span>12th:</span> Army Public School, Hisar</li>
+                </ul>
+            </div>
         </div>
     </div>
-        
-        <div class="work-list">
-            <div class="work">
-                <img src="inote.png">
-                <div class="layer">
-                    <h3>iNotebook</h3>
-                    <p>Its an app where you can create your account, create your notes and save them for future references. It's a full stack app build with MERN. Find the project on my GitHub : https://github.com/jyoti1911sngwn/inotebook 
-</p>
-                    <a href="https://inotebook-coral-six.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+    <!--------services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services:-</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Front-End</h2>
+                    <p>Technologies : React, Next js, Typescript, Tailwind, HTML, CSS and Javascript</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-code-compare"></i>
+                    <h2>Back-End</h2>
+                    <p>Technologies : Node js, Express js, Django Framework, Python, C++</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Management</h2>
+                    <p>Technologies : MySQL , PostGres , MongoDB</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Cloud Base</h2>
+                    <p>Technologies : AWS - EC2, S3, Cloudwatch, RDS, Loadbalancers</p>
+                    <!-- <a href="#">Learn more</a> -->
                 </div>
             </div>
-            <div class="work">
-                <img src="newsapp.png">
-                <div class="layer">
-                    <h3>NEWS App</h3>
-                    <p>In this app you can view latest NEWS updated continuously. I have fetched the NEWS from NewsAPI , which is an open source API available for free on internet.</p>
-                    <a href="https://newsallaround.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+    </div>
+    <!------------portfolio-------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="trustpays.png">
+                    <div class="layer">
+                        <h3>Trustpays</h3>
+                        <p>Payment portal to integrate in your website which will aid in cash flow management </p>
+                        <a href="https://trustpays24.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="wasalt.png">
+                    <div class="layer">
+                        <h3>Wasalt</h3>
+                        <p>Website where you can add your property listing for auction and also buy real estate.</p>
+                        <a href="https://wasalt.sa/en"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="socials.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Post your photos and share what's on your mind. Also like or dislike feed</p>
+                        <a href="https://social-media-opal-delta.vercel.app/"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="work">
-                <img src="toh.png">
-                <div class="layer">
-                    <h3>Tower Of Hanoi</h3>
-                    <p>Created and app to understand the problem of Tower Of Hanoi , it is more like a game </p>
-                    <a href="https://towerofhanoi-2d309.web.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                </div> </div>
-            </div>
-  <div class="work-list">        
-<div class="work">
-                <img src="auth.png">
-                <div class="layer">
-                    <h3>Authentication App</h3>
-                    <p>Basic User sign up and login via authentication with JWT</p>
-                    <a href="https://userauthfront.vercel.app/signup"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="inote.png">
+                    <div class="layer">
+                        <h3>iNotebook</h3>
+                        <p>Its an app where you can create your account, create your notes and save them for future
+                            references. It's a full stack app build with MERN. Find the project on my GitHub :
+                            https://github.com/jyoti1911sngwn/inotebook
+                        </p>
+                        <a href="https://inotebook-coral-six.vercel.app/"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="newsapp.png">
+                    <div class="layer">
+                        <h3>NEWS App</h3>
+                        <p>In this app you can view latest NEWS updated continuously. I have fetched the NEWS from
+                            NewsAPI , which is an open source API available for free on internet.</p>
+                        <a href="https://newsallaround.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="toh.png">
+                    <div class="layer">
+                        <h3>Tower Of Hanoi</h3>
+                        <p>Created and app to understand the problem of Tower Of Hanoi , it is more like a game </p>
+                        <a href="https://towerofhanoi-2d309.web.app/"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
                 </div>
             </div>
-        <div class="work">
-                <img src="newsapp.png">
-                <div class="layer">
-                    <h3>Authentication App</h3>
-                    <p>Basic User sign up and login via authentication with JWT</p>
-                    <a href="https://userauthfront.vercel.app/signup"><i class="fa-solid fa-up-right-from-square"></i></a>
+            <div class="work-list">
+                <div class="work">
+                    <img src="auth.png">
+                    <div class="layer">
+                        <h3>Authentication App</h3>
+                        <p>Basic User sign up and login via authentication with JWT</p>
+                        <a href="https://userauthfront.vercel.app/signup"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="newsapp.png">
+                    <div class="layer">
+                        <h3>Authentication App</h3>
+                        <p>Basic User sign up and login via authentication with JWT</p>
+                        <a href="https://userauthfront.vercel.app/signup"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="newsapp.png">
+                    <div class="layer">
+                        <h3>Authentication App</h3>
+                        <p>Basic User sign up and login via authentication with JWT</p>
+                        <a href="https://userauthfront.vercel.app/signup"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
                 </div>
             </div>
-        <div class="work">
-                <img src="newsapp.png">
-                <div class="layer">
-                    <h3>Authentication App</h3>
-                    <p>Basic User sign up and login via authentication with JWT</p>
-                    <a href="https://userauthfront.vercel.app/signup"><i class="fa-solid fa-up-right-from-square"></i></a>
-                </div>
-            </div></div>  
             <a href="#" class="btn">See More</a>
-</div>
-<!---------------Contact------------------------->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                            <p><i class="fa-solid fa-paper-plane"></i>sangwanjyoti717@gmail.com</p>
-                            <p><i class="fa-solid fa-square-phone"></i>+971525822499 , +919518808504</p>
-                            <div class="social-icons">
-                                <a href="https://www.facebook.com/jyoti.sngwn/"><i class="fa-brands fa-facebook"></i></a>
-                                <a href="https://github.com/jyoti1911sngwn"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/in/jyoti-sangwan/"><i class="fa-brands fa-linkedin"></i></a>
-                                <a href="https://www.youtube.com/channel/UCL-c2MG2xlfPJa3YAGR3raQ"><i class="fa-brands fa-youtube"></i></a>
-                            </div>
-                    <a href="CVMY.pdf" download class="btn btn2">Download CV</a>
-            </div>
-            <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
+        </div>
+        <!---------------Contact------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>sangwanjyoti717@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+971525822499 , +919518808504</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/jyoti.sngwn/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://github.com/jyoti1911sngwn"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/jyoti-sangwan/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.youtube.com/channel/UCL-c2MG2xlfPJa3YAGR3raQ"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                        </div>
+                        <a href="CVMY.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
                         <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @Jyoti. Made with <i class="fa-solid fa-heart"></i> by Jyoti Sangwan</p>
             </div>
         </div>
-    </div>
-    <div class="copyright">
-        <p>Copyright @Jyoti. Made with <i class="fa-solid fa-heart"></i> by Jyoti Sangwan</p>
-    </div>
-</div>
 
 
-<script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-       event.currentTarget.classList.add("active-link");
-       document.getElementById(tabname).classList.add("active-tab");
-    }
-</script>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
 
-<script>
-    var sidemenu = document.getElementById("sidemenu");
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
 
-    function openmenu(){
-        sidemenu.style.right = "0";
-    }
-    
-    function closemenu(){
-        sidemenu.style.right = "-300px";
-    }
-</script>
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
 
-<script>
-    console.log("object")
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbz-rJtYYvdV_vJZfpSSG4g9AiruXs1K5tIimrlX46J3Lu5OL2ln4zPd4DksCCkek3zscw/exec'
-    console.log("scriptURL", scriptURL)
-    const form = document.forms['submit-to-google-sheet']
-    console.log("form", form)
-   const msg= document.getElementById("msg")
-    form.addEventListener('submit', e => {
-        console.log("function")
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {msg.innerHTML = "Message Sent Successfully"
-    setTimeout(function(){
-        msg.innerHTML =""},5000)
-    form.reset()})
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-    </body>
+            function closemenu() {
+                sidemenu.style.right = "-300px";
+            }
+        </script>
+
+        <script>
+            console.log("object")
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbz-rJtYYvdV_vJZfpSSG4g9AiruXs1K5tIimrlX46J3Lu5OL2ln4zPd4DksCCkek3zscw/exec'
+            console.log("scriptURL", scriptURL)
+            const form = document.forms['submit-to-google-sheet']
+            console.log("form", form)
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+                console.log("function")
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message Sent Successfully"
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
 </html>
