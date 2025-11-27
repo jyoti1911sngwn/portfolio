@@ -488,6 +488,12 @@ nav .fas{
         max-width: 80%;
     }
 }
+@media (max-width: 600px){
+    .intro-row {
+        flex-direction: column;
+        padding-bottom: 40px; /* critical fix */
+    }
+}
 
 
 
