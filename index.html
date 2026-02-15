@@ -17,240 +17,241 @@
 <body>
     <div id="header">
         <div class="container">
-            <nav><img src="logo.jpeg" class="logo" id="test">
+            <nav>
+                <img src="logo.jpeg" class="logo">
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Work</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Hire Me</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
                 </ul>
-                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
-            <div class="intro-row">
-                <div class="intro-col-1">
-                    <img src="iamge.png" alt="">
-                </div>
-                <div class="intro-col-2">
-                    <div class="header-text">
-                        <p>Full Stack Developer</p>
-                        <h1>Hi, I'm <span>Jyoti</span> from India</h1>
-                        <p class="exp-text">3+ years of experience in full stack development,
-                            specializing in React.js and Node.js. Proficient in data structures, algorithms, and
-                            databases. Handled features across multiple platforms and ensured stable releases. My
-                            expertise lies in creating dynamic, responsive
-                            and user-friendly web applications Strong knowledge of React.js, Next.js, Node.js, Mongo DB,
-                            Postgres and JavaScript.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-        <!------------portfolio-------------->
+            <section class="intro">
+                <div class="intro-container">
 
-       <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">Projects</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="trustpays.png">
-                    <div class="layer">
-                        <h3>Trustpays</h3>
-                        <p>Payment portal to integrate in your website which will aid in cash flow management </p>
-                        <a href="https://trustpays24.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="wasalt.png">
-                    <div class="layer">
-                        <h3>Wasalt</h3>
-                        <p>Website where you can add your property listing for auction and also buy real estate.</p>
-                        <a href="https://wasalt.sa/en"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <!-- LEFT: IMAGE -->
+                    <div class="intro-image">
+                        <img src="iamge.png" alt="Jyoti Sangwan - Freelance Full Stack Developer" />
                     </div>
 
-                </div>
-                <div class="work">
-                    <img src="socials.png">
-                    <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Post your photos and share what's on your mind. Also like or dislike feed</p>
-                        <a href="https://social-media-opal-delta.vercel.app/"><i
-                                class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-            </div>
+                    <!-- RIGHT: TEXT -->
+                    <div class="intro-content">
+                        <span class="intro-tag">Freelance Full-Stack Developer</span>
 
-            <div class="work-list">
-                <div class="work">
-                    <img src="newsapp.png">
-                    <div class="layer">
-                        <h3>NEWS App</h3>
-                        <p>In this app you can view latest NEWS updated continuously. I have fetched the NEWS from
-                            NewsAPI , which is an open source API available for free on internet.</p>
-                        <a href="https://news-app-e7hq.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="inote.png">
-                    <div class="layer">
-                        <h3>iNotebook</h3>
-                        <p>Its an app where you can create your account, create your notes and save them for future
-                            references. It's a full stack app build with MERN.
+                        <h1 class="intro-title">
+                            I build scalable SaaS platforms, dashboards & payment systems
+                        </h1>
+
+                        <p class="intro-description">
+                            I help startups and growing businesses launch fast, secure web applications
+                            using React, Node.js and AWS.
+                            With 3+ years of experience, I’ve built production-ready platforms featuring
+                            authentication systems, payment integrations, dashboards, and real-time
+                            functionality.
                         </p>
-                        <a href="https://inotebook-coral-six.vercel.app/"><i
-                                class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                
-                <div class="work">
-                    <img src="toh.png">
-                    <div class="layer">
-                        <h3>Tower Of Hanoi</h3>
-                        <p>Created and app to understand the problem of Tower Of Hanoi , it is more like a game </p>
-                        <a href="https://towerofhanoi-2d309.web.app/"><i
-                                class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="work-list">
-                <div class="work">
-                    <img src="auth.png">
-                    <div class="layer">
-                        <h3>Authentication App</h3>
-                        <p>Basic User sign up and login via authentication with JWT</p>
-                        <a href="https://userauthfront.vercel.app/signup"><i
-                                class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="qr.png">
-                    <div class="layer">
-                        <h3>QR App</h3>
-                        <p>QR Component</p>
-                        <a href="https://qr-code-component-main-2-cznl.vercel.app/"><i
-                                class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="click.png">
-                    <div class="layer">
-                        <h3>Click App</h3>
-                        <p></p>
-                        <a href="https://nft-project-ecru-xi.vercel.app/"><i
-                                class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-            </div>
-            <a href="#" class="btn">See More</a>
-        </div>
-    <!---------------about----------->
-    <div id="about">
-        <div class="container about-container">
-            <h1 class="sub-title">About Me</h1><br>
-            <p>
-                I am a full-stack developer with 3 years of hands-on experience working with React.js, Node.js,
-                Express.js, and MongoDB. I have contributed to multiple large-scale B2B and B2C platforms, delivering
-                end-to-end features that are fast, scalable, and user-focused. My strengths lie in building intuitive UI
-                components, integrating APIs, managing application state, and developing secure backend services.
-            </p>
-            <br>
-            <p>Over the years, I have worked closely with product, design, and business teams to translate requirements
-                into reliable technical solutions. I have experience with authentication systems, internationalization
-                (i18n), performance optimization, dynamic imports, and responsive web design across mobile and desktop.
-                I enjoy taking ownership—from planning and architecture to development, testing, and deployment.</p>
-            <br>
-            <p>I am passionate about clean code, modern development practices, and building meaningful digital
-                experiences. With a strong problem-solving mindset and a consistent learning approach, I aim to
-                contribute to impactful projects while growing as an engineer.</p>
-            <!-- Tab Titles -->
-            <div class="tab-titles">
-                <p class="tab-links" onclick="opentab('skills')">Skills</p>
-                <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
-                <p class="tab-links" onclick="opentab('education')">Education</p>
-            </div>
 
-            <!-- Tab Contents -->
-            <div class="tab-contents active-tab" id="experience">
-                <ul>
-                    <li>
-                        <span>Serviots Pvt. Ltd</span><br>
-                        Built a secure and scalable payment platform using the PERN stack with JWT-based authentication,
-                        role-based access control,
-                        and automated backend operations with Python bots. Developed the frontend with React.js (17+),
-                        backend APIs with Node.js/Express.js,
-                        and managed data in PostgreSQL. Enabled real-time transactions via WebSockets, integrated
-                        multiple payment gateways (Cashfree, Razorpay, PayU, PayAssist)
-                        with secure Webhooks, and deployed backend services on AWS EC2. Managed global state efficiently
-                        with Redux.
-                    </li>
-                    <li>
-                        <span>Quara Digital Pvt. Ltd</span><br>
-                        Developed <strong>Wasalt.com</strong>, a real estate website in Riyadh. Built dynamic and
-                        responsive user interfaces using React.js,
-                        implemented server-side rendering and static generation with Next.js for better performance and
-                        SEO, and managed complex state logic
-                        using useReducer and Context API. Utilized dynamic imports for conditional component rendering
-                        and configured dynamic routing for static site generation.
-                    </li>
-                </ul>
-            </div>
+                        <p class="intro-seo">
+                            React Developer for hire · SaaS Developer · MERN Stack Expert · Freelance
+                            Full-Stack Engineer
+                        </p>
+                    </div>
 
-            <div class="tab-contents" id="skills">
-                <ul>
-                    <li><span>Front-End Development:</span> Designing the look and feel of web pages</li>
-                    <li><span>Database Management:</span> Handling and organizing data efficiently</li>
-                    <li><span>Back-End Development:</span> Processing and managing application logic and server
-                        operations</li>
-                </ul>
-            </div>
-
-            <div class="tab-contents" id="education">
-                <ul>
-                    <li><span>B.Tech-M.Tech Integrated:</span> Lovely Professional University, Phagwara</li>
-                    <li><span>12th:</span> Army Public School, Hisar</li>
-                </ul>
+                </div>
+            </section>
+            <!-- ================= WHO I WORK WITH ================= -->
+            <div class="container">
+                <h1 class="sub-title">Who I Work With</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Startups</h2>
+                        <p>MVPs, SaaS dashboards, admin panels and payment systems.</p>
+                    </div>
+                    <div>
+                        <h2>Businesses</h2>
+                        <p>Feature development, bug fixing and performance optimization.</p>
+                    </div>
+                    <div>
+                        <h2>Founders</h2>
+                        <p>End-to-end product development from idea to deployment.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    </div>
 
-    <!--------services--------->
-    <div id="services">
+    <!------------portfolio-------------->
+
+    <div id="portfolio">
+       <div class="container">
+    <h1 class="sub-title">Projects</h1>
+
+    <div class="work-list" id="projectList">
+
+        <!-- project 1 -->
+        <div class="work">
+            <img src="trustpays.png">
+            <div class="layer">
+                <h3>Trustpays</h3>
+                <p>Payment portal to integrate in your website which will aid in cash flow management</p>
+                <a href="https://trustpays24.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <!-- project 2 -->
+        <div class="work">
+            <img src="wasalt.png">
+            <div class="layer">
+                <h3>Wasalt</h3>
+                <p>Website where you can add property listing for auction and buy real estate.</p>
+                <a href="https://wasalt.sa/en"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <!-- project 3 -->
+        <div class="work">
+            <img src="socials.png">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Post photos and like/dislike feed.</p>
+                <a href="https://social-media-opal-delta.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <!-- project 4 -->
+        <div class="work">
+            <img src="newsapp.png">
+            <div class="layer">
+                <h3>News App</h3>
+                <p>Latest news fetched from NewsAPI.</p>
+                <a href="https://news-app-e7hq.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <!-- project 5 -->
+        <div class="work">
+            <img src="inote.png">
+            <div class="layer">
+                <h3>iNotebook</h3>
+                <p>MERN notes app.</p>
+                <a href="https://inotebook-coral-six.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <!-- project 6 -->
+        <div class="work">
+            <img src="toh.png">
+            <div class="layer">
+                <h3>Tower Of Hanoi</h3>
+                <p>Game version of Tower of Hanoi.</p>
+                <a href="https://towerofhanoi-2d309.web.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <!-- hidden initially -->
+        <div class="work hidden">
+            <img src="auth.png">
+            <div class="layer">
+                <h3>Authentication App</h3>
+                <p>JWT login system</p>
+                <a href="https://userauthfront.vercel.app/signup"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="work hidden">
+            <img src="qr.png">
+            <div class="layer">
+                <h3>QR App</h3>
+                <p>QR component</p>
+                <a href="https://qr-code-component-main-2-cznl.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="work hidden">
+            <img src="click.png">
+            <div class="layer">
+                <h3>Click App</h3>
+                <a href="https://nft-project-ecru-xi.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <a href="#" class="btn" id="seeMoreBtn">See More</a>
+</div>
+
+
         <div class="container">
-            <h1 class="sub-title">Services</h1>
+            <h1 class="sub-title">Pricing</h1>
             <div class="services-list">
                 <div>
-                    <i class="fa-sharp fa-solid fa-code"></i>
-                    <h2>Front-End</h2>
-                    <p>Technologies : React, Next js, Typescript, Tailwind, HTML, CSS and Javascript</p>
-                    <!-- <a href="#">Learn more</a> -->
+                    <h2>Landing Page</h2>
+                    <p>Starting from $300</p>
                 </div>
                 <div>
-                    <i class="fa-sharp fa-solid fa-code-compare"></i>
-                    <h2>Back-End</h2>
-                    <p>Technologies : Node js, Express js, Django Framework, Python, C++</p>
-                    <!-- <a href="#">Learn more</a> -->
-                </div>
-
-                <div>
-
-                    <i class="fa-solid fa-database"></i>
-                    <h2>Database Management</h2>
-                    <p>Technologies : MySQL , PostGres , MongoDB</p>
-                    <!-- <a href="#">Learn more</a> -->
+                    <h2>Web App / Dashboard</h2>
+                    <p>$800 – $2000</p>
                 </div>
                 <div>
-
-                    <i class="fa-solid fa-database"></i>
-                    <h2>Cloud Base</h2>
-                    <p>Technologies : AWS - EC2, S3, Cloudwatch, RDS, Loadbalancers</p>
-                    <!-- <a href="#">Learn more</a> -->
+                    <h2>Hourly</h2>
+                    <p>$15 – $25 / hour</p>
                 </div>
             </div>
         </div>
-    </div>
- 
+        <!---------------about----------->
+        <div id="about">
+            <div class="container about-container">
+                <h1 class="sub-title">About Me</h1><br>
+                <p>
+                    Full-stack developer with 3 years of experience in React, Node.js, Express, and MongoDB. I build
+                    scalable web apps, intuitive UIs, and secure APIs, collaborating with cross-functional teams to
+                    deliver end-to-end features. Passionate about clean code, performance, and continuous learning.
+                </p>
+                <br>
+
+            </div>
+            <!--------services--------->
+            <div id="services">
+                <div class="container">
+                    <h1 class="sub-title">Services</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-sharp fa-solid fa-code"></i>
+                            <h2>Front-End</h2>
+                            <p>Technologies : React, Next js, Typescript, Tailwind, HTML, CSS and Javascript</p>
+                            <!-- <a href="#">Learn more</a> -->
+                        </div>
+                        <div>
+                            <i class="fa-sharp fa-solid fa-code-compare"></i>
+                            <h2>Back-End</h2>
+                            <p>Technologies : Node js, Express js, Django Framework, Python, C++</p>
+                            <!-- <a href="#">Learn more</a> -->
+                        </div>
+
+                        <div>
+
+                            <i class="fa-solid fa-database"></i>
+                            <h2>Database Management</h2>
+                            <p>Technologies : MySQL , PostGres , MongoDB</p>
+                            <!-- <a href="#">Learn more</a> -->
+                        </div>
+                        <div>
+
+                            <i class="fa-solid fa-database"></i>
+                            <h2>Cloud Base</h2>
+                            <p>Technologies : AWS - EC2, S3, Cloudwatch, RDS, Loadbalancers</p>
+                            <!-- <a href="#">Learn more</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
         <!---------------Contact------------------------->
         <div id="contact">
             <div class="container">
@@ -262,16 +263,16 @@
                             <p><i class="fa-solid fa-paper-plane"></i>sangwanjyoti717@gmail.com</p>
                             <p><i class="fa-solid fa-square-phone"></i>+971525822499 , +919518808504</p>
                             <div class="social-icons">
-                                <a href="https://www.facebook.com/jyoti.sngwn/"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/jyoti.sngwn/"><i
+                                        class="fa-brands fa-facebook"></i></a>
                                 <a href="https://github.com/jyoti1911sngwn"><i class="fa-brands fa-instagram"></i></a>
                                 <a href="https://www.linkedin.com/in/jyoti-sangwan/"><i
-                                    class="fa-brands fa-linkedin"></i></a>
-                                    <a href="https://www.youtube.com/channel/UCL-c2MG2xlfPJa3YAGR3raQ"><i
+                                        class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.youtube.com/channel/UCL-c2MG2xlfPJa3YAGR3raQ"><i
                                         class="fa-brands fa-youtube"></i></a>
-                                        <a href="https://github.com/jyoti1911sngwn"><i
-                                            class="fa-brands fa-github"></i></a>
-                                        </div>
-                                    </div>
+                                <a href="https://github.com/jyoti1911sngwn"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
                         <a href="CVMY.pdf" download class="btn btn2">Download CV</a>
                     </div>
                     <div class="contact-right">
@@ -280,16 +281,18 @@
                             <input type="email" name="Email" placeholder="Your Email" required>
                             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                             <button type="submit" class="btn btn2">Submit</button>
-                            
+
                         </form>
                         <span id="msg"></span>
                     </div>
                 </div>
             </div>
             <div class="copyright">
-                <p>Copyright @Jyoti. Made with <i class="fa-solid fa-heart"></i> by Jyoti Sangwan                         
-                    <a class="anchor" href="https://docs.google.com/spreadsheets/d/1odS7sQSlAYkBIHCvWe7b5BHYqWKVWjEzJgHmj2zjRk4/edit?gid=0#gid=0"> Review Feedbacks</a>
-</p>
+                <p>Copyright @Jyoti. Made with <i class="fa-solid fa-heart"></i> by Jyoti Sangwan
+                    <a class="anchor"
+                        href="https://docs.google.com/spreadsheets/d/1odS7sQSlAYkBIHCvWe7b5BHYqWKVWjEzJgHmj2zjRk4/edit?gid=0#gid=0">
+                        Review Feedbacks</a>
+                </p>
             </div>
         </div>
 
@@ -342,6 +345,27 @@
                     .catch(error => console.error('Error!', error.message))
             })
         </script>
+
+
+        <script>
+            const btn = document.getElementById("seeMoreBtn");
+            const hiddenProjects = document.querySelectorAll(".work.hidden");
+
+            let expanded = false;
+
+            btn.addEventListener("click", function (e) {
+                e.preventDefault();
+
+                expanded = !expanded;
+
+                hiddenProjects.forEach(p => {
+                    p.style.display = expanded ? "block" : "none";
+                });
+
+                btn.textContent = expanded ? "Show Less" : "See More";
+            });
+        </script>
+
 </body>
 
 </html>
