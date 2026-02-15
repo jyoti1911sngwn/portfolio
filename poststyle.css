@@ -544,21 +544,21 @@ nav .fas {
 
 /* Image Column */
 .intro-col-1 {
-  flex: 1 1 45%; /* takes roughly half of the screen */
+  flex: 1 1 35%; /* takes roughly half of the screen */
   display: flex;
   justify-content: center;
 }
 
 .intro-col-1 img {
   width: 100%;
-  max-width: 400px; /* adjust for desired max size */
+  max-width: 100px; /* adjust for desired max size */
   height: auto;
-  border-radius: 10px; /* optional rounded edges */
+  border-radius: 100px; /* optional rounded edges */
   object-fit: cover;
   object-fit: cover;
   border-radius: 50%;
-  border: 0.5px solid #ff004f;
-  box-shadow: 0 0 25px #ff004f;
+  border: 0.2px solid #ff004f;
+  box-shadow: 0 0 5px #ff004f;
 }
 
 /* Text Column */
